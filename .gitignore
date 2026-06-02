@@ -1,0 +1,40 @@
+# =========================
+# Python & Virtuele Omgevingen
+# =========================
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Data, Video's & Resultaten
+# =========================
+# Zorg dat zware bestanden lokaal blijven (voor de zekerheid)
+*.mp4
+*.avi
+*.h5
+
+# Negeer alle inhoud in de mappen, behalve het .gitkeep bestand
+/data/**
+!/data/**/
+!/data/**/.gitkeep
+
+# =========================
+# IDE's & Ontwikkelomgevingen
+# =========================
+.idea/
+.vscode/
+*.swp
+
+# =========================
+# Besturingssystemen
+# =========================
+.DS_Store
+Thumbs.db
